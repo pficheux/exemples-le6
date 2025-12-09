@@ -1,0 +1,24 @@
+From 0dd43868f2aebfde6e9fa2b892c472802f238e68 Mon Sep 17 00:00:00 2001
+From: Pierre Ficheux <pierre.ficheux@smile.fr>
+Date: Tue, 9 Dec 2025 13:52:26 +0100
+Subject: [PATCH] updated message
+
+---
+ hello-world-git.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello-world-git.c b/hello-world-git.c
+index 9a59d98..89f69fc 100644
+--- a/hello-world-git.c
++++ b/hello-world-git.c
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ 
+ int main(void) {
+-	printf("Hello, World from an application cloned from Github!\r\n");
++	printf("Hello, World from an application cloned from Github (+ patched)!\r\n");
+ 	return 0;
+ }
+-- 
+2.34.1
+

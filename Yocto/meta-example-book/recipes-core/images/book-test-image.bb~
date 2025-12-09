@@ -1,9 +1,0 @@
-# Base this image on core-image-minimal
-include recipes-core/images/core-image-minimal.bb
-
-# Added packages
-IMAGE_INSTALL += "fahr hello-cmake-git hello-example-msg"
-
-# Added features
-IMAGE_FEATURES += "package-management"
-
