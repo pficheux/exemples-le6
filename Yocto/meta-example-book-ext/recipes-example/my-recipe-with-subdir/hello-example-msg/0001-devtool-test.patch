@@ -1,0 +1,22 @@
+From 6f4599ff84e92fcc5d50543ab694db1f2be7713f Mon Sep 17 00:00:00 2001
+From: Pierre Ficheux <pierre.ficheux@smile.fr>
+Date: Wed, 10 Dec 2025 11:55:14 +0100
+Subject: [PATCH] devtool test
+
+---
+ hello_example_msg.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello_example_msg.c b/hello_example_msg.c
+index b59c014..d75c657 100644
+--- a/hello_example_msg.c
++++ b/hello_example_msg.c
+@@ -3,7 +3,7 @@
+  
+ int main(int argc, char* argv[])
+ {
+-   printf("%s\n", MSG);
++   printf("%s (+ devtool)\n", MSG);
+ 
+    return 0;
+ }
