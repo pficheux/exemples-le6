@@ -1,0 +1,2 @@
+bin_PROGRAMS=hello_example_auto
+hello_example_auto_SOURCES=hello_example_auto.c

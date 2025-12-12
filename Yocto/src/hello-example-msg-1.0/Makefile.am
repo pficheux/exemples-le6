@@ -1,0 +1,2 @@
+bin_PROGRAMS=hello_example_msg
+hello_example_msg_SOURCES=hello_example_msg.c
