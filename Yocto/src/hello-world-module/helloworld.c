@@ -1,15 +1,11 @@
-#include <linux/module.h>
+#include <linux/module.h> 
 #include <linux/kernel.h>
 
 MODULE_LICENSE("GPL");
 
-static int param;
-
-module_param(param, int, 0644);
-
 static int __init hello_init(void)
 {
-  pr_info ("Hello World (param= %d)\n", param);
+  pr_info ("Hello World\n");
   return 0;
 }
 
