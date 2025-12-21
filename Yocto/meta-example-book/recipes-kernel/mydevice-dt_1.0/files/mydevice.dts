@@ -6,7 +6,7 @@
     __overlay__ {
       mydevice {
 	compatible = "arm,versatile-pb";
-	string ="hello device";
+	string ="hello device\n";
       };
     };
   };
