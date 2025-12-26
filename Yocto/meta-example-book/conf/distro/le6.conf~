@@ -1,4 +1,0 @@
-require conf/distro/poky.conf      
-DISTRO = "ecs"
-DISTRO_NAME = "Example distro for the LE6 book"
-DISTRO_VERSION = "1.0"

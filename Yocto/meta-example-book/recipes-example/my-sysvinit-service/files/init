@@ -1,0 +1,25 @@
+#!/bin/sh
+
+NAME=hello-sysvinit
+
+case "$1" in
+  start)
+	echo -n "Starting $NAME"
+	/usr/bin/my_loop.sh &
+	;;
+  stop)
+	echo -n "Stopping $NAME"
+	killall my_loop.sh
+	;;
+  restart)
+	$0 stop
+	$0 start
+	;;
+  *)
+	N=/etc/init.d/$NAME
+	echo "Usage: $N {start|stop|restart}" >&2
+	exit 1
+	;;
+esac
+
+exit 0
