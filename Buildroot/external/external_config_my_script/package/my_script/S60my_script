@@ -1,0 +1,33 @@
+#!/bin/sh
+
+start() {
+    printf "Starting my_script: "
+    /usr/bin/my_script.sh &
+}
+
+stop() {
+    printf "Stopping my_script: "
+    killall my_script.sh
+}
+
+restart() {
+    stop
+    start
+}
+
+case "$1" in
+  start)
+      start
+      ;;
+  stop)
+      stop
+      ;;
+  restart|reload)
+      restart
+      ;;
+  *)
+      echo "Usage: $0 {start|stop|restart}"
+      exit 1
+esac
+
+exit $?

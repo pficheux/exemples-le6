@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_MY_SCRIPT_PATH/package/my_script/Config.in"
+

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_MY_SCRIPT
+	bool "My script"
+	help
+		My script help
