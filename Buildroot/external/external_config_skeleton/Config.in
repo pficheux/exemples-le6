@@ -2,4 +2,5 @@ source "$BR2_EXTERNAL_SKEL_PATH/package/hello_autotools/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/hello_cmake/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/hello_generic/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/hello-module/Config.in"
+source "$BR2_EXTERNAL_SKEL_PATH/package/hello-cmake-git/Config.in"
 

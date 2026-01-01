@@ -1,0 +1,4 @@
+config BR2_PACKAGE_HELLO_CMAKE_GIT
+	bool "CMake + GitHub 
+	help
+		Hello world CMake + GitHub
