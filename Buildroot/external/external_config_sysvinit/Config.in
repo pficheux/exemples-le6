@@ -1,2 +1,0 @@
-source "$BR2_EXTERNAL_SYSVINIT_PATH/package/my_script/Config.in"
-

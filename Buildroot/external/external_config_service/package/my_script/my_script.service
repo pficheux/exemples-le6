@@ -4,10 +4,9 @@ After=multi-user.target
 
 # Define the command to start here
 [Service]
-ExecStart=/usr/bin/hello-systemd.sh
+ExecStart=/usr/bin/my_script.sh
 StandardOutput=syslog
 StandardError=syslog
 
 [Install]
 WantedBy=multi-user.target
-

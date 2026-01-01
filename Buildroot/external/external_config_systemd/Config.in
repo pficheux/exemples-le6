@@ -1,2 +1,0 @@
-source "$BR2_EXTERNAL_SYSTEMD_PATH/package/hello-systemd/Config.in"
-

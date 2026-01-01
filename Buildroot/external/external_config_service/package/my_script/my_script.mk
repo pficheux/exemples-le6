@@ -5,4 +5,11 @@ define MY_SCRIPT_INSTALL_INIT_SYSV
 	$(TARGET_DIR)/usr/bin
 endef
 
+define MY_SCRIPT_INSTALL_INIT_SYSTEMD
+	$(INSTALL) -D -m 644 $(BR2_EXTERNAL_SERVICE_PATH)/package/my_script/my_script.service \
+	$(TARGET_DIR)/usr/lib/systemd/system/my_script.service
+	$(INSTALL) -D -m 755 $(BR2_EXTERNAL_SERVICE_PATH)/package/my_script/my_script.sh \
+	$(TARGET_DIR)/usr/bin
+endef
+
 $(eval $(generic-package))

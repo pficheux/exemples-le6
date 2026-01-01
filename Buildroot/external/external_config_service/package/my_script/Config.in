@@ -1,0 +1,4 @@
+config BR2_PACKAGE_MY_SCRIPT
+	bool "My service script"
+	help
+		A simple service started at boot time

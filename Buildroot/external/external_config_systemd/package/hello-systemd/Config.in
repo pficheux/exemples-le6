@@ -1,9 +1,0 @@
-config BR2_PACKAGE_HELLO_SYSTEMD
-	bool "systemd service example"
-	depends on BR2_INIT_SYSTEMD
-	help
-		systemd service example
-
-comment "The systemd example needs systemd !"
-        depends on !BR2_INIT_SYSTEMD
-	
