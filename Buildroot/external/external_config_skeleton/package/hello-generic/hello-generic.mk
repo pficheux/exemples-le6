@@ -1,4 +1,4 @@
-HELLO_GENERIC_SOURCE = hello_generic.tar.gz
+HELLO_GENERIC_SOURCE = hello-generic.tar.gz
 HELLO_GENERIC_SITE = http://pficheux.free.fr/pub/tmp
 
 define HELLO_GENERIC_BUILD_CMDS
