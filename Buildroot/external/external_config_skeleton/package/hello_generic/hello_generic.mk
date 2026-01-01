@@ -1,5 +1,5 @@
 HELLO_GENERIC_SOURCE = hello_generic.tar.gz
-HELLO_GENERIC_SITE = http://pficheux.free.fr/tmp
+HELLO_GENERIC_SITE = http://pficheux.free.fr/pub/tmp
 
 define HELLO_GENERIC_BUILD_CMDS
 	$(TARGET_CONFIGURE_OPTS) $(MAKE) -C $(@D)

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_HELLO_CMAKE_HASH
+	bool "CMake example with hash file"
+	help
+		Hello world CMake package + hash file
