@@ -1,0 +1,12 @@
+[Unit]
+Description=GNU Hello World startup script
+After=multi-user.target
+
+# Define the command to start here
+[Service]
+ExecStart=/usr/bin/my-script.sh
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
