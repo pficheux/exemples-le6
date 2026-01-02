@@ -2,12 +2,12 @@
 
 start() {
     printf "Starting my_script: "
-    /usr/bin/my_script.sh &
+    /usr/bin/my-script.sh &
 }
 
 stop() {
     printf "Stopping my_script: "
-    killall my_script.sh
+    killall my-script.sh
 }
 
 restart() {

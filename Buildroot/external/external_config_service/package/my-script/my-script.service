@@ -4,7 +4,7 @@ After=multi-user.target
 
 # Define the command to start here
 [Service]
-ExecStart=/usr/bin/my_script.sh
+ExecStart=/usr/bin/my-script.sh
 StandardOutput=syslog
 StandardError=syslog
 
