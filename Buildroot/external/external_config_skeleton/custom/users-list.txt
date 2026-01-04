@@ -1,0 +1,1 @@
+test 1000 wheel -1 = - /bin/sh - Test user
