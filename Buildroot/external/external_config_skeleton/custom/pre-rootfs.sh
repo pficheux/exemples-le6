@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo
-echo "$(basename $0) -> before creatting the rootfs (id = $(id -u)) !!"
+echo "$(basename $0) -> before creating the rootfs, id= $(id -u), params= $* !!"
 echo
