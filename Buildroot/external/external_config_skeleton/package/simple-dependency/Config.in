@@ -1,0 +1,4 @@
+config BR2_PACKAGE_SIMPLE_DEPENDENCY
+	bool "A simple dependency"
+	help
+		A simple dependency

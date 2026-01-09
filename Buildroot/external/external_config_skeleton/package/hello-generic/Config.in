@@ -1,4 +1,7 @@
 config BR2_PACKAGE_HELLO_GENERIC
 	bool "Generic Makefile example"
+#	select BR2_PACKAGE_SIMPLE_DEPENDENCY
+	depends on BR2_PACKAGE_SIMPLE_DEPENDENCY
+
 	help
 		Hello world generic package	

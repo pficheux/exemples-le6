@@ -4,5 +4,6 @@ source "$BR2_EXTERNAL_SKEL_PATH/package/hello-generic/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/hello-module/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/hello-cmake-git/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/hello-cmake-hash/Config.in"
+source "$BR2_EXTERNAL_SKEL_PATH/package/simple-dependency/Config.in"
 source "$BR2_EXTERNAL_SKEL_PATH/package/my-script/Config.in"
 
